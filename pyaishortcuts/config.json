@@ -1,0 +1,28 @@
+{
+  "shortcuts": {
+    "text_selection": {
+      "name": "email Assistant",
+      "description": "email Assistant",
+      "default_prompt": "rewrite it as business email style but not so formal",
+      "parameters": {
+        "max_tokens": 1000,
+        "temperature": 0.7,
+        "timeout": 5
+      },
+      "default": true
+    },
+    "summarize": {
+      "name": "Summarize",
+      "description": "Summarize the selected text",
+      "default_prompt": "summarize the text",
+      "parameters": {
+        "max_tokens": 1000,
+        "temperature": 0.5,
+        "timeout": 3
+      }
+    }
+  },
+  "key_binding": {
+    "shortcut": "ctrl+shift+1"
+  }
+}
